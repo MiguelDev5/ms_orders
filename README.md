@@ -65,6 +65,7 @@ ms-order/
         - Queue Storage
         - Cosmos DB
 
+
 2. **Variables de configuración** (`application.properties`):
    
 - azure.queue.connection-string=UseDevelopmentStorage=true
@@ -75,6 +76,14 @@ ms-order/
 - azure.cosmos.key=YOUR_KEY
 - azure.cosmos.database=orders-db
 - azure.cosmos.container=orders
+
+---
+
+## 📖 Documentación de la API – Swagger UI
+La API REST está documentada automáticamente con Swagger (OpenAPI 3).
+
+Acceso a la documentación:
+👉 [domain:port]/swagger-ui/index.html
 
 ---
 
